@@ -1,3 +1,5 @@
+# first type yarn to download your node_modules folder
+
 ## Use this command to run and watch your changes
 
 # yarn app dev

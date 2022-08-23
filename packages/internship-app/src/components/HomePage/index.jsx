@@ -2,9 +2,10 @@ import Layout from "../Layout";
 const HomePage = () => {
   return (
     <Layout>
-      <div className="flex flex-col items-start content-center">
+      {/* <div className="flex h-full justify-center items-center"> */}
+      <div className=" flex-col items-start content-center inline-block absolute left-1/3 top-72  ">
         <div className="mb-6">
-          <p className="text-3xl font-extrabold pb-2 font-sans">
+          <p className="text-3xl font-extrabold pb-2 font-general">
             Change Collection Name
           </p>
           <p className="text-bg-8 font-sans font-normal text-sm">
@@ -30,6 +31,7 @@ const HomePage = () => {
           </button>
         </div>
       </div>
+      {/* </div> */}
     </Layout>
   );
 };

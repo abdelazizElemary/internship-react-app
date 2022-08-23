@@ -6,9 +6,7 @@ const Layout = ({ children }) => {
       <div className="flex flex-col px-20 py-4 bg-white-1 border-b border-bg-3">
         <Header />
       </div>
-      <main className="flex h-full justify-center items-center">
-        {children}
-      </main>
+      <main>{children}</main>
       <style global jsx>{`
         html,
         body,

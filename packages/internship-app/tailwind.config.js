@@ -6,12 +6,19 @@ module.exports = {
       center: true,
     },
     extend: {
+      height: {
+        "90px": "90px",
+      },
+      fontSize: {
+        xxs: "10px",
+      },
       colors: {
         bg: {
           1: "#F8F9FA",
           2: "#E4EDF2",
           3: "#E4E0E0",
           5: "#CFD4D9",
+          7: "#6E757C",
           8: "#4A5056",
           10: "#222529",
         },

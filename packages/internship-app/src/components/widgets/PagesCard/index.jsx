@@ -1,13 +1,13 @@
 import Image from "next/image";
-import Lock from "../../../public/icons/lock.svg";
-import Published from "../../../public/icons/published-icon.svg";
+import Lock from "../../../../public/icons/lock.svg";
+import Published from "../../../../public/icons/published-icon.svg";
 
-const PagesCard = ({ title, subTitle, state, date }) => {
+const PagesCard = ({ title, subTitle, state, date, locked }) => {
   return (
-    <div className="bg-bg-1 flex flex-row border border-bg-5 rounded-lg h-20 max-w-4xl p-5 w-full">
-      <Image src={Lock} alt="" />
+    <div className="bg-bg-1 flex flex-row border border-bg-5 rounded-lg h-28 lg:h-90px max-w-4xl p-5 w-full">
+      {locked ? <Image src={Lock} alt="" /> : <p className="w-6"> &nbsp;</p>}
       <div className="flex flex-col items-start gap-2 w-1/2 ml-5">
-        <p className=" capitalize text-xl text-bg-10 font-normal">{title}</p>
+        <p className="capitalize text-xl text-bg-10 font-normal">{title}</p>
         <p className="text-pp-1 text-xs">{subTitle}</p>
       </div>
       <div className="flex flex-row gap-8 items-center">

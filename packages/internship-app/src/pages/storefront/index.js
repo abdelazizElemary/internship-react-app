@@ -1,5 +1,5 @@
 import Head from "next/head";
-import StorefrontPages from "../../components/StorefrontPages";
+import StorefrontPages from "../../components/pages/StorefrontPages";
 
 const Storefront = () => {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Logo from "../../../public/icons/betablocks.svg";
-import Help from "../../../public/icons/help.svg";
+import Logo from "../../../../public/icons/betablocks.svg";
+import Help from "../../../../public/icons/help.svg";
 const Header = () => {
   return (
     <div className="flex flex-row justify-between">

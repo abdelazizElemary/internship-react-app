@@ -1,6 +1,6 @@
 import Image from "next/image";
-import MinusIcon from "../../../public/icons/minus.svg";
-import PlusIcon from "../../../public/icons/plus-icon.svg";
+import MinusIcon from "../../../../public/icons/minus.svg";
+import PlusIcon from "../../../../public/icons/plus-icon.svg";
 
 const PagesTitle = ({ title, buttonText, setShowPages, showPages }) => {
   return (

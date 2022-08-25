@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="flex flex-row justify-between px-36">
       <Image src={Logo} alt="logo" />
-      <div className="flex flex-row gap-9">
+      <div className="xl:flex flex-row gap-9 hidden">
         <HeaderLink text={"Pages"} />
         <HeaderLink text={"Digital Offerings"} />
         <HeaderLink text={"Reports"} />

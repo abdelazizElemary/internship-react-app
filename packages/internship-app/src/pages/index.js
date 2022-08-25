@@ -14,7 +14,7 @@ export default function Home() {
         </p>
         <input
           placeholder="Enter Name Here"
-          className="bg-basic-1 pr-4 pl-3 border-solid border border-bg-2 w-11/12 md:w-[430px] h-9"
+          className="placeholder-bg-7 bg-basic-1 pr-4 pl-3 border-solid border border-bg-2 w-11/12 md:w-[430px] h-9"
         ></input>
         <div className="pt-10">
           <button className="font-semibold text-xs text-pp-1 mr-5">BACK</button>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Icon from "../../../public/icons/icon.svg";
+import Icon from "../../../../public/icons/icon.svg";
 import Layout from "../Layout";
 const HomePage = () => {
   return (

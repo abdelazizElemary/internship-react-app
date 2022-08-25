@@ -37,6 +37,9 @@ module.exports = {
         accent: {
           1: "#0316E1",
         },
+        basic: {
+          1: "#F7FBFC",
+        },
       },
     },
   },

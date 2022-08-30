@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Logo from "../../../../public/icons/betablocksColored.svg";
 import Help from "../../../../public/icons/blueHelp.svg";
-import NavBarButtons from "../../widgets/NavBarButtons";
+import NavBarButtons from "../NavBarButtons";
 
 const StorefrontHeader = () => {
   return (

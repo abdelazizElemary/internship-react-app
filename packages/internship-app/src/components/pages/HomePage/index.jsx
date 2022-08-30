@@ -1,6 +1,7 @@
 import Image from "next/image";
-import Icon from "../../../public/icons/icon.svg";
-import Layout from "../Layout";
+import Icon from "../../../../public/icons/icon.svg";
+import Button from "../../atoms/Button";
+import Layout from "../../widgets/Layout";
 const HomePage = () => {
   return (
     <Layout>
@@ -14,12 +15,11 @@ const HomePage = () => {
           through the process.
         </p>
         <div className="flex flex-row pt-7">
-          <button className="bg-transparent text-accent-1 uppercase px-7 py-3 text-sm font-semibold">
-            back
-          </button>
-          <button className="bg-gradient-to-r from-pp-2 to-pp-1 text-white-2 uppercase px-7 py-3 text-sm font-semibold">
-            start selling
-          </button>
+          <Button className="bg-transparent text-accent-1" title="back" />
+          <Button
+            className="bg-gradient-to-r from-pp-2 to-pp-1 text-white-2"
+            title="start selling"
+          />
         </div>
       </div>
     </Layout>

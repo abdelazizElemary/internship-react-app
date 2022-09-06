@@ -19,6 +19,7 @@ const HomePage = () => {
           <Button
             className="bg-gradient-to-r from-pp-2 to-pp-1 text-white-2"
             title="start selling"
+            href={"/storefront"}
           />
         </div>
       </div>

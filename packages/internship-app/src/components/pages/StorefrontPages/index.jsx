@@ -1,7 +1,7 @@
 import { useState } from "react";
+import Layout from "../../widgets/Layout";
 import PagesContent from "../../widgets/PagesContent";
 import PagesTitle from "../../widgets/PagesTitle";
-import Layout from "../Layout";
 
 const StorefrontPages = () => {
   const [showPages, setShowPages] = useState(false);

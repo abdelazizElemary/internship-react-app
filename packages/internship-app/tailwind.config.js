@@ -21,6 +21,7 @@ module.exports = {
           7: "#6E757C",
           8: "#4A5056",
           10: "#222529",
+          12: "#141517",
         },
         white: {
           1: "#FFFFFFCC",
@@ -36,6 +37,13 @@ module.exports = {
         },
         accent: {
           1: "#0316E1",
+        },
+        basic: {
+          200: "#F7FBFC",
+          400: "#E4EDF2",
+        },
+        brand: {
+          blue: "#3F81DB",
         },
       },
     },
